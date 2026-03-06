@@ -32,3 +32,7 @@
     box-shadow: 0 6px 16px rgba(0,0,0,.16);
 }
 #wrap .container .sponsor_btn:hover::after {transform: translateX(120%);}
+@keyframes x4 {
+    0% {transform:translateX(0);}
+    100% {transform:translateX(4px);}
+}
